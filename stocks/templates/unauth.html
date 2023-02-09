@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Unauthorized</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="{{ url_for('static', path='/static/unauth.css') }}" rel="stylesheet">
+  </head>
+  <body>
+      <div class="lock"></div>
+      <div class="message">
+          <center><img src="{{ url_for('static',path='/templates/img/lock.png') }}" style="width : 100px; height: 100px;"></center>
+          <h1>Access to this page is restricted !</h1>
+          <p>Please check with the site admin if you believe this is a mistake.</p>
+      </div>
+  </body>
+</html>

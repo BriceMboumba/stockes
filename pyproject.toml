@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "stocks"
+version = "0.1.0"
+description = ""
+authors = ["brice <m.moughala.o.b@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.20.0"
+fastapi = "^0.88.0"
+asyncpg = "^0.27.0"
+psycopg2 = "^2.9.5"
+sqlmodel = "^0.0.8"
+pydantic = "^1.10.2"
+alembic = "^1.9.0"
+Jinja2 = "^3.1.2"
+seaborn = "^0.12.1"
+scikit-learn = "^1.2.0"
+python-multipart = "^0.0.5"
+texteditor = "^1.4.1"
+pyodbc = "^4.0.35"
+pandas = "^1.5.2"
+SQLAlchemy = "1.4.41"
+sql = "^2022.4.0"
+ipython-sql = "^0.4.1"
+fastapi-login = "^1.8.3"
+path = "^16.6.0"
+bcrypt = "^4.0.1"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+app="stocks.main:start"
