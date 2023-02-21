@@ -10,7 +10,8 @@ In order to highlight my knowledge both in the development of web and data appli
 
 **info**: the project was developed under a Unix environment, so the installation procedure
 only concerns OS such as Linux or Mac.
-IDE: PyCharm.
+
+IDE: **PyCharm**.
 
 Python version: **3.10.6 or 3.10.7**
 
